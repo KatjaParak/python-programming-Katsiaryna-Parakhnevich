@@ -7,6 +7,9 @@ def open_data():
     return data
 
 
+# function to determine whether the point is right/above or left/below the straight line
+
+
 def add_label(k, m, data=open_data()):
     data_values = data.values
     label_list = []
